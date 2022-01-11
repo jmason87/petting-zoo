@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Petting Zoo",
+            "type": "python",
+            "request": "launch",
+            "program": "./animals.py",
+            "console": "integratedTerminal",
+            "autoReload": {
+                "enable": true
+            }
+        }
+    ]
+}
