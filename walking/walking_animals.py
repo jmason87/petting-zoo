@@ -3,58 +3,47 @@ from datetime import date
 
 class Monkey:
     """class for Monkey"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, shift):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
-
-matt = Monkey("Matt", "Orangutan")
-print(matt)
+        self.shift = shift
 
 class Tiger:
     """class for Tiger"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, shift):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
-
-tim = Tiger("Tim", "Siberian Tiger")
-print(tim)
-
+        self.shift = shift
 
 class Bear:
     """class for Bear"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, shift):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
-
-benny = Bear("Benny", "Grizzly Bear")
-print(benny)
-
+        self.shift = shift
 
 class Lion:
     """class for Lion"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, shift):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
-
-leo = Lion("Leo", "Mountian Lion")
-print(leo)
-
+        self.shift = shift
 
 class Zebra:
     """class for Zebra"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, shift):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
+        self.shift = shift
 
-zach = Zebra("Zach", "Plains Zebra")
-print(zach)
+
