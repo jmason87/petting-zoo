@@ -2,59 +2,81 @@ from datetime import date
 
 class Cobra:
     """class for Cobra"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+        self.food = food
 
-connie = Cobra("Connie", "King Cobra")
-print(connie)
+    def feed(self):
+        """tells you what the animal was fed on date"""
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Python:
     """class for Python"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+        self.food = food
 
-pete = Python("Pete", "Snake")
-print(pete)
+    def feed(self):
+        """tells you what the animal was fed on date"""
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Viper:
     """class for Viper"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+        self.food = food
 
-vicky = Viper("Vicky", "Pit Viper")
-print(vicky)
+    def feed(self):
+        """tells you what the animal was fed on date"""
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Gardner:
     """class for Gardner"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+        self.food = food
 
-gary = Gardner("Gary", "Gartner Snake")
-print(gary)
+    def feed(self):
+        """tells you what the animal was fed on date"""
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Anaconda:
     """class for Anaconda"""
-    def __init__(self, name, species):
+    def __init__(self, name, species, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+        self.food = food
 
-andy = Anaconda("Andy", "Big Snake")
-print(andy)
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
+    def feed(self):
+        """tells you what the animal was fed on date"""
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+

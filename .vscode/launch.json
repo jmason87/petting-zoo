@@ -5,7 +5,7 @@
             "name": "Petting Zoo",
             "type": "python",
             "request": "launch",
-            "program": "./animals.py",
+            "program": "./index.py",
             "console": "integratedTerminal",
             "autoReload": {
                 "enable": true
