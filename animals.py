@@ -35,17 +35,17 @@ print(corey)
 wally = Whale("Wally", "Blue Whale")
 print(wally)
 
-matt = Monkey("Matt", "Orangutan")
+matt = Monkey("Matt", "Orangutan", "Morning")
 print(matt)
 
-tim = Tiger("Tim", "Siberian Tiger")
+tim = Tiger("Tim", "Siberian Tiger", "Morning")
 print(tim)
 
-benny = Bear("Benny", "Grizzly Bear")
+benny = Bear("Benny", "Grizzly Bear", "Midday")
 print(benny)
 
-leo = Lion("Leo", "Mountian Lion")
+leo = Lion("Leo", "Mountian Lion", "Afternoon")
 print(leo)
 
-zach = Zebra("Zach", "Plains Zebra")
+zach = Zebra("Zach", "Plains Zebra", "Afternoon")
 print(zach)
