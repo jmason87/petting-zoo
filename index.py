@@ -18,27 +18,31 @@ gary = Gardner("Gary", "Gartner Snake", "animalFood")
 andy = Anaconda("Andy", "Big Snake", "animalFood")
 
 tom = Turtle("Tom", "Snapping Turtle", "animalFood")
+print(tom.feed())
 
 dorris = Dolphin("Dorris", "Bottlenose Dolphin", "animalFood")
+print(dorris.feed())
 
 sam = Shark("Sam", "Great White", "animalFood")
+print(sam.feed())
 
 corey = Crab("Corey", "King Crab", "animalFood")
+print(corey.feed())
 
 wally = Whale("Wally", "Blue Whale", "animalFood")
+print(wally.feed())
 
-matt = Monkey("Matt", "Orangutan", "Morning", "animalFood", 123123)
+matt = Monkey("Matt", "Orangutan", "Morning", "animalFood", 1)
 matt.chip_number = 321321
 print(matt.chip_number)
 
+tim = Tiger("Tim", "Siberian Tiger", "Morning", "animalFood", 2)
 
-tim = Tiger("Tim", "Siberian Tiger", "Morning", "animalFood")
+benny = Bear("Benny", "Grizzly Bear", "Midday", "animalFood", 3)
 
-benny = Bear("Benny", "Grizzly Bear", "Midday", "animalFood")
+leo = Lion("Leo", "Mountian Lion", "Afternoon", "animalFood", 4)
 
-leo = Lion("Leo", "Mountian Lion", "Afternoon", "animalFood")
-
-zach = Zebra("Zach", "Plains Zebra", "Afternoon", "animalFood")
+zach = Zebra("Zach", "Plains Zebra", "Afternoon", "animalFood", 5)
 
 north_wing.animals.append(zach)
 north_wing.animals.append(leo)
@@ -58,7 +62,7 @@ south_wing.add_animal(vicky)
 south_wing.add_animal(gary)
 south_wing.add_animal(andy)
 
-print(south_wing.last_critter_added)
+
 
 
 # print(f"{north_wing.attraction_name} is where you'll find animals like:")
